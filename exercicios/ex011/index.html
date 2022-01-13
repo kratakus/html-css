@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex006/favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>tente abrir esse site em disversos dispositivos diferentes ou simplesmente aumente ou diminua o tamanho no seu navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexível">
+        </picture>
+        <pre>
+            <h2>Reproduzindo audio</h2>
+            <audio preload="metadata" controls autoplay loop>
+                
+             <source src="audios/Brooklyn and the Bridge - Nico Staf.mp3" type="audio/mpeg" > 
+            <source src="audios/algumacoisa.ogg" type="audio/ogg">
+             <p> seu navegador ta mal, baixe a musica <a href="../ex011/audios/Brooklyn and the Bridge - Nico Staf.mp3" download="Brooklyn and the Bridge - Nico Staf.mp3" type="audio.mpeg"></a></p>
+            </audio>
+            <h2>Adicionando Videos</h2>
+            <video width="700px" poster="videos/imagemajustada.jpg" controls >
+                <source src="videos/Pexels-Kelly-Lacy-9722139-1.mp4" type="video/mp4"> 
+            <p>se esssa mensagem aparecer o video não foi carregado infelismente. 
+            :/
+            </p>
+            </video> 
+            <h2>inserindo Videos externos</h2>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+            
+        </pre>
+        
+    
+    
+</body>
+</html>

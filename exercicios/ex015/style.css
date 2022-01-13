@@ -1,0 +1,17 @@
+@charset  "UTF-8";
+
+body{
+    background-color: rgb(248, 247, 245);
+    font-family: monospace;
+}
+h1{
+    background-color:rgb(233, 212, 25) ;
+    font-size: 28px;
+}
+h2{
+    background-color: black;
+    color: rgb(252, 193, 45);
+}
+p{
+    text-align: left;
+}

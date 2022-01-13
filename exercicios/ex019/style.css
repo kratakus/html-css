@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffedcdbd;
+    font-size: small;
+}
+h1#principal{
+    text-align: center;
+    font-size: 2.3em;
+    background-color:#DEA137;
+    color: #36270D;
+    
+}
+
+h1{
+    color: #75551D;
+}
+h2{
+    color: #B8852E;
+}
+p{
+    text-align: left;
+    font-weight: bolder;
+}
+.basico{
+    background-color:#B8852E ;
+    color: #36270D;
+}
+.intermediario{
+    background-color:#36270D ;
+    color: #B8852E;
+}
+.avançado{
+    background-image: linear-gradient(to right ,#B8852E, #36270D );
+    color: white;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+ 
+#d1:hover {
+    background-color: chartreuse;
+}
+#d2:hover {
+    background-color: chocolate;
+}
+#d3:hover {
+    background-color: darkblue;
+}
+#exemplo > p {
+    display: none;
+}
+#exemplo{
+    width: 100px;
+    height: 20px;
+}
+#exemplo:hover > p{
+    display:block;
+    width: 100px;
+    height: 20px; 
+    background-color: darkgoldenrod;
+    color: black;
+}
