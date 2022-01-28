@@ -24,8 +24,8 @@ header {
 header h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family:'Passion One', cursive,  sans-serif ; ;
-    font-size: 10vh;
+    font-family:'Passion One', cursive,  sans-serif ; 
+    font-size: 10vw;
 }
 
 header p {
@@ -81,7 +81,7 @@ section p {
 
 section.imagem p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.493);
     padding: 5px;
 }
 
